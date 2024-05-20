@@ -1,14 +1,20 @@
 const notas = [1,1,7,1,9,2,10,8]
 
 // SEM UTILIZAR CALLBACK
-let notasBaixas = []
-    for(let i = 0; i < notas.length; i++) {
+let notasBaixas1 = []
+    for(i = 0; i < notas.length; i++) {
         if(notas[i] < 7){
-            notasBaixas.push(notas[i])
+            notasBaixas1.push(notas[i])
         }
     }
 
-console.log(notasBaixas)
+console.log(notasBaixas1)
 
 // UTILIZANDO CALLBACK
-notasBaixas = notas.filter()
+const notasBaixas2 = notas.filter(function (nota) {
+    return nota <= 7
+})
+
+
+const notasBaixas3 = notas.filter(nota => nota < 7)
+console.log(notasBaixas3)

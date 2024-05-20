@@ -129,7 +129,7 @@ function encontrarMenorNumero(arrayNum) {
     console.log(menor);
 }
 
-encontrarMenorNumero([3.45,423,,435,1,45,6,35,71,22457,0.5,123,123,1,5,2,657])
+encontrarMenorNumero([3.45,423,435,1,45,6,35,71,22457,0.5,123,123,1,5,2,657])
 
 
 // Exercício 10: Concatenar Arrays
